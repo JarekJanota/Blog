@@ -66,6 +66,12 @@ export default function BlogPost({post}){
           alt={post.title}
         />
         </div>
+        <h2>{post.title}</h2>
+          
+        <div
+          className={styles.content}
+          dangerouslySetInnerHTML={{ __html: post.content.html }}
+        ></div>
         <div className={styles.title}>
           <div className={styles.authdetails}>
             <img src={post.author.avatar.url} alt={post.author.name} />
@@ -75,13 +81,7 @@ export default function BlogPost({post}){
               </h6>
             </div>
           </div>
-          <h2>{post.title}</h2>
         </div>
-  
-        <div
-          className={styles.content}
-          dangerouslySetInnerHTML={{ __html: post.content.html }}
-        ></div>
       </main>
     )
 }
