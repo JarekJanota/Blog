@@ -46,3 +46,28 @@
   -moz-box-shadow: 0px -1px 24px 4px rgba(51, 52, 64, 1);
   box-shadow: 0px -1px 24px 4px rgba(51, 52, 64, 1);
 }
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+  .container
+  {
+    margin: 3.5%;
+    width: 93%;
+    height: 100%;
+    margin-bottom: 4%;
+  }
+  .text h2
+  {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .author img
+  {
+    width: 60px;
+    height: 60px;
+  }
+  .imgContainer img {
+    width: 200px;
+    height: 125px;
+  }
+}
