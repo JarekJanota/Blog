@@ -1,4 +1,28 @@
+.blog
+{
+  text-align: center;
+}
 .imgContainer img {
-    width: 300px;
-    height: 300px;
-  }
+  width: 500px;
+  height: 250px;
+}
+
+.authdetails
+{
+  margin:80px;
+}
+.authdetails img
+{
+  width: 75px;
+  height: 75px;
+}
+.blog h2
+{
+  font-size: 80px;
+}
+.content
+{
+  padding: 15px;
+  inline-size: 100%;
+  overflow-wrap: break-word;
+}
